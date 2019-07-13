@@ -1,0 +1,19 @@
+environment:
+    CXX: /usr/bin/g++ -m64
+    CC: /usr/bin/gcc -m64
+    DEBUG: '1'
+
+stages:
+  - name: build
+    steps:
+      - env
+      - pwd
+      - make clone
+      - make build
+      - make package
+      - make ips-package
+
+  - name: publish
+    match: "^master$"
+    steps:
+      - make publish
