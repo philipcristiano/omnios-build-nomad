@@ -2,7 +2,7 @@ PROJECT=nomad
 VERSION=0.9.3
 PROJECT_NAME=${PROJECT}
 PROJECT_VERSION=${VERSION}
-DOWNLOAD_SRC=https://github.com/hashicorp/${PROJECT}/archive/v${VERSION}.tar.gz
+DOWNLOAD_SRC=https://github.com/cneira/${PROJECT}/archive/master.tar.gz
 LOCAL_SRC_TAR=src.tar.gz
 LOCAL_SRC=nomad-${VERSION}
 
