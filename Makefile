@@ -4,7 +4,7 @@ PROJECT_NAME=${PROJECT}
 PROJECT_VERSION=${VERSION}
 DOWNLOAD_SRC=https://github.com/cneira/${PROJECT}/archive/master.tar.gz
 LOCAL_SRC_TAR=src.tar.gz
-LOCAL_SRC=nomad-${VERSION}
+LOCAL_SRC=nomad-master
 
 USERNAME=${PROJECT}
 GROUPNAME=${PROJECT}
